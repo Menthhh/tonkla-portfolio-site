@@ -51,7 +51,7 @@ const Experience = () => {
     },
     {
       title: "Software Engineer Intern",
-      role: "Full-Stack Developer",
+      role: "Software Engineer",
       company: "MOHARA",
       location: "Bangkok, Thailand",
       period: "Apr 2025 - Jun 2025",
@@ -64,8 +64,21 @@ const Experience = () => {
       tags: ["Agile", "Full-Stack", "tRPC", "Frontend", "Backend"]
     },
     {
+      title: "Full Stack Developer Intern",
+      role: "Full Stack Developer",
+      company: "Good Application",
+      location: "Bangkok, Thailand",
+      period: "Jun 2024 – Dec 2024",
+      highlights: [
+        "Led development of the company’s core product, managing backend, frontend, and database implementation",
+        "Oversaw end-to-end feature delivery, ensuring system reliability and scalability",
+        "Coordinated project tasks and collaborated with team members for timely delivery"
+      ],
+      tags: ["Full-Stack", "Backend", "Frontend", "Database Management", "Team Collaboration"]
+    },
+    {
       title: "Web Developer Intern",
-      role: "Frontend Developer",
+      role: "Full stack Developer",
       company: "Western Digital Technologies, Inc.",
       location: "Ayutthaya, Thailand",
       period: "Apr 2024 - Jun 2024",
@@ -87,10 +100,10 @@ const Experience = () => {
             Professional Experience
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From AI research to production systems, building impactful solutions across diverse domains
+            From AI research to production systems, building solutions across diverse domains
           </p>
         </div>
-        
+
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, index) => (
             <Card key={index} className="p-8 hover:shadow-lg transition-all duration-300 border-l-4 border-l-primary">
@@ -111,7 +124,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <ul className="space-y-3">
                   {exp.highlights.map((highlight, idx) => (
@@ -122,7 +135,7 @@ const Experience = () => {
                   ))}
                 </ul>
               </div>
-              
+
               <div className="flex flex-wrap gap-2">
                 {exp.tags.map((tag, idx) => (
                   <Badge key={idx} variant="secondary" className="bg-primary/10 text-primary hover:bg-primary/20">

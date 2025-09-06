@@ -31,13 +31,13 @@ const Contact = () => {
     {
       icon: <Github className="h-5 w-5" />,
       name: "GitHub",
-      href: "#",
+      href: "https://github.com/Menthhh",
       color: "bg-foreground text-background hover:bg-foreground/90"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       name: "LinkedIn",  
-      href: "#",
+      href: "https://www.linkedin.com/in/tonkla-pokaew-018371255",
       color: "bg-primary text-white hover:bg-primary/90"
     },
     {
