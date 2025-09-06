@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/tonkla-portfolio-site/" : "/",
+  base: "/tonkla-portfolio-site/",
   server: {
     host: "::",
     port: 8080,
